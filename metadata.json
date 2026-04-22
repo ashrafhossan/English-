@@ -1,0 +1,5 @@
+{
+  "name": "English Learning Pro",
+  "description": "Comprehensive English learning tool for Class 3-12 with text analysis, translations, and interactive exercises.",
+  "requestFramePermissions": ["camera"]
+}
