@@ -18,6 +18,7 @@ import {
   RefreshCw
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { Analytics } from '@vercel/analytics/react';
 import { Camera } from './components/Camera';
 import { analyzeText } from './services/geminiService';
 import { AnalysisResult } from './types';
@@ -514,6 +515,7 @@ export default function App() {
           onClose={() => setIsCameraOpen(false)} 
         />
       )}
+      <Analytics />
     </div>
   );
 }
